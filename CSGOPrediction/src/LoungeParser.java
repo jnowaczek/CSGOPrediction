@@ -108,7 +108,7 @@ public class LoungeParser extends MatchParser {
 	
 	public static void main(String[] args) {
 		LoungeParser instance = new LoungeParser();
-		for (int i = 1; i < 1682; i++) {
+		for (int i = 1; i < 1800; i++) {
 			instance.getPage(i);
 			instance.writeMatchToFile();
 			System.out.println("Currently processing match ID " + i);
